@@ -2,10 +2,11 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  background: url("./assets/wavesNegative4.svg"), linear-gradient(to bottom right, #F956B3, #EC7A1D);
+  background: url("./assets/wavesNegative4.svg"),
+    linear-gradient(to bottom right, #f956b248, #ec7a1d48), url("./assets/wavesOpacity.svg");
   background-repeat: no-repeat, no-repeat;
-  background-position: center bottom, center;
-  background-size: 100% 150px, auto;
+  background-position: center bottom, center, top center;
+  background-size: 100% 150px, auto, 100% 150px;
 }
 
 .custom-shape-divider-bottom-1719090000 {
@@ -20,7 +21,7 @@
 .custom-shape-divider-bottom-1719090000 svg {
   position: relative;
   display: block;
-  width: 100%; 
+  width: 100%;
   height: 150px;
 }
 
@@ -28,16 +29,17 @@
   fill: #ffffff; /* Fill color for your SVG shape */
 }
 
-
-
-
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+#root {
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  background-color: #ffffff;
 }
 
+
+
+
+
+/* 
 .logo {
   height: 6em;
   padding: 1.5em;

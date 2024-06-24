@@ -6,15 +6,16 @@ const Banner = () => {
         <div className=" back-shape">
           <div className=" flex justify-between items-center w-full h-full px-24">
             <div className="w-full space-y-5">
-              <h1 className="text-6xl text-white/80 font-black">Ashraful Haque</h1>
+              <h1 className="text-2xl font-bold bg-gradient-to-tl from-[#f956b3] to-[#ec7a1d] text-transparent bg-clip-text">Hi, I am Ashraful Haque</h1>
+              <h1 className="text-7xl font-black bg-gradient-to-tl from-[#f956b3] to-[#ec7a1d] text-transparent bg-clip-text"><span className="text-[#6E06F2]">Front-End</span> Web Developer</h1>
     
               {/* type writer */}
               <div>
-                <h1 className="text-2xl text-white/80 font-black ">
+                <h1 className="text-2xl text-black font-black ">
                   Passionate
                   <span
                     style={{
-                      color: "cyan",
+                      color: "#6E06F2",
                       fontWeight: "bold",
                       marginLeft: "10px",
                     }}
@@ -34,14 +35,6 @@ const Banner = () => {
                 </h1>
               </div>
     
-              <p className="text-md text-left text-white/80">
-                Hi, I'm Ashraful Haque. I'm a Front End Web Developer. I'm a skilled
-                React developer with expertise in building modern web applications
-                using React.js, JavaScript, and related technologies. With several
-                years of experience in front-end development, I specialize in
-                creating interactive user interfaces that enhance user experiences
-                and drive engagement.
-              </p>
     
               {/* socila link */}
               <div className="">
@@ -59,7 +52,7 @@ const Banner = () => {
                         height="32"
                         viewBox="0 0 24 24"
                         fill="currentColor"
-                        stroke="#F26C5A"
+                        stroke="#6E06F2"
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -84,7 +77,7 @@ const Banner = () => {
                         height="32"
                         viewBox="0 0 24 24"
                         fill="currentColor"
-                        stroke="#F26C5A"
+                        stroke="#6E06F2"
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -109,7 +102,7 @@ const Banner = () => {
                         height="32"
                         viewBox="0 0 24 24"
                         fill="currentColor"
-                        stroke="#F26C5A"
+                        stroke="#6E06F2"
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -148,7 +141,7 @@ const Banner = () => {
                 </ul>
               </div>
             </div>
-            <div className="w-full flex  justify-end items-center">
+            <div className="w-full flex relative justify-end items-center">
               <img
                 className="rounded-full shadow-xl"
                 src="https://avatars.githubusercontent.com/u/139930811?v=4"
