@@ -4,15 +4,15 @@ import { Typewriter } from "react-simple-typewriter";
 const Banner = () => {
     return (
         <div className=" back-shape">
-          <div className=" flex justify-between items-center w-full h-full px-24">
-            <div className="w-full space-y-5">
-              <h1 className="text-2xl font-bold bg-gradient-to-tl from-[#f956b3] to-[#ec7a1d] text-transparent bg-clip-text">Hi, I am Ashraful Haque</h1>
-              <h1 className="text-7xl font-black bg-gradient-to-tl from-[#f956b3] to-[#ec7a1d] text-transparent bg-clip-text"><span className="text-[#6E06F2]">Front-End</span> Web Developer</h1>
+          <div className="flex  lg:justify-between items-center lg:flex-row flex-col-reverse w-full h-full px-8 lg:px-24 gap-8 lg:gap-0">
+            <div className="w-full space-y-3 lg:space-y-5">
+              <h1 className="lg:text-2xl text-lg font-bold text-black">Hi, I am Ashraful Haque <span className="text-[#6E06F2]">👋</span> </h1>
+                <h1 className="lg:text-7xl text-4xl font-black bg-gradient-to-tl from-[#f956b3] to-[#ec7a1d] text-transparent bg-clip-text "><span className="text-[#6E06F2]">Front-End</span> Web Developer</h1>
     
               {/* type writer */}
               <div>
                 <h1 className="text-2xl text-black font-black ">
-                  Passionate
+                  Passionate at 
                   <span
                     style={{
                       color: "#6E06F2",
@@ -40,8 +40,9 @@ const Banner = () => {
               <div className="">
                 <ul className=" flex justify-start items-center gap-6">
                   {/* github */}
-                  <li className="text-3xl text-white bg-white/80 p-3 rounded-full hover:bg-white">
+                  <li>
                     <a
+                      className="btn"
                       href="https://github.com/haqueashraful"
                       target="_blank"
                       rel="noreferrer"
@@ -51,7 +52,7 @@ const Banner = () => {
                         width="32"
                         height="32"
                         viewBox="0 0 24 24"
-                        fill="currentColor"
+                        fill="none"
                         stroke="#6E06F2"
                         strokeWidth="2"
                         strokeLinecap="round"
@@ -64,9 +65,9 @@ const Banner = () => {
                   </li>
     
                   {/* facebook */}
-                  <li className="text-3xl text-white bg-white/80 p-3 rounded-full hover:bg-white">
+                  <li>
                     <a
-                      className=" block"
+                      className="btn"
                       href="https://www.facebook.com/profile.php?id=100051858772605"
                       target="_blank"
                       rel="noreferrer"
@@ -76,7 +77,7 @@ const Banner = () => {
                         width="32"
                         height="32"
                         viewBox="0 0 24 24"
-                        fill="currentColor"
+                        fill="none"
                         stroke="#6E06F2"
                         strokeWidth="2"
                         strokeLinecap="round"
@@ -89,9 +90,9 @@ const Banner = () => {
                   </li>
     
                   {/* linkedin */}
-                  <li className="text-3xl text-white bg-white/80 p-3 rounded-full hover:bg-white">
+                  <li>
                     <a
-                      className=" block"
+                      className=" btn"
                       href="https://www.linkedin.com/in/a-h-rana"
                       target="_blank"
                       rel="noreferrer"
@@ -101,7 +102,7 @@ const Banner = () => {
                         width="32"
                         height="32"
                         viewBox="0 0 24 24"
-                        fill="currentColor"
+                        fill="none"
                         stroke="#6E06F2"
                         strokeWidth="2"
                         strokeLinecap="round"
@@ -115,38 +116,20 @@ const Banner = () => {
                     </a>
                   </li>
     
-                  {/* <li className="text-3xl text-white bg-white/80 p-4 rounded-full hover:bg-[#F956B3]">
-                    <a
-                    className=" block"
-                      href="https://github.com/haqueashraful"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className="feather feather-github"
-                      >
-                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                      </svg>
-                      </a>
-                      </li> */}
+                 <li className="download-btn">
+                    <a className="text-white text-xl font-bold"  href="https://drive.google.com/uc?export=download&id=1e7r-Yb6lI6QhtR0j5nHbs5fq8FEuh_8R">Download CV</a>
+                 </li>
                 </ul>
               </div>
             </div>
-            <div className="w-full flex relative justify-end items-center">
-              <img
-                className="rounded-full shadow-xl"
+            <div className="w-full flex relative lg:justify-end items-center">
+             <div className="border-img">
+             <img
+                className="rounded-full  p-5 drop-shadow-lg"
                 src="https://avatars.githubusercontent.com/u/139930811?v=4"
                 alt=""
               />
+             </div>
             </div>
           </div>
         </div>
