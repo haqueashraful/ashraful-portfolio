@@ -95,6 +95,7 @@
 .btn:hover svg {
   transform: scale(0.9);
   fill: #6E06F2;
+  stroke: #f2695fa6;
 }
 
 
