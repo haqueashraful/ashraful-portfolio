@@ -25,7 +25,7 @@ const Projects = () => {
         {/* dine craft */}
         {/* <Card
         onClick={() => setModal2Open(true)}
-          className=" overflow-hidden border-gre w-full"
+          className=" overflow-hidden !border-blue-700/80 w-full"
           hoverable
           style={{
             width: 240,
@@ -81,7 +81,7 @@ const Projects = () => {
 
         {/* smart ticket */}
         {/* <Card
-          className=" overflow-hidden border-gre w-full"
+          className=" overflow-hidden !border-blue-700/80 w-full"
           hoverable
           style={{
             width: 240,
@@ -121,10 +121,10 @@ const Projects = () => {
         {/* employee management */}
         <Card
           onClick={() => setModalE(true)}
-          className=" overflow-hidden border-gre w-full"
+          className=" overflow-hidden !border-blue-700/80 w-full"
           hoverable
           style={{
-            width: 240,
+            width: 340,
           }}
           cover={
             <img
@@ -153,7 +153,14 @@ const Projects = () => {
               className=" text-blue-700/50 font-bold underline block"
               to="https://github.com/haqueashraful/employee-management-client"
             >
-              View code
+              Client code
+            </Link>
+            <Link
+              target="_blank"
+              className=" text-blue-700/50 font-bold underline block"
+              to="https://github.com/haqueashraful/employee-management-admin"
+            >
+              Server code
             </Link>
           </div>
         </Card>
@@ -186,7 +193,9 @@ const Projects = () => {
             alt="R-estate"
           />
           <p className="text-lg py-3">
-            Employee Management System. With this system, you can manage your Employee work and salary. This has a Dashboard for Admin, Employee and HR. Hr can verify Employee and pay their salary. 
+            Employee Management System. With this system, you can manage your
+            Employee work and salary. This has a Dashboard for Admin, Employee
+            and HR. Hr can verify Employee and pay their salary.
           </p>
 
           <ul className="list-disc list-inside">
@@ -218,10 +227,10 @@ const Projects = () => {
         {/* R-Estate */}
         <Card
           onClick={() => setModalR(true)}
-          className=" overflow-hidden border-gre w-full"
+          className=" overflow-hidden !border-blue-700/80 w-full"
           hoverable
           style={{
-            width: 240,
+            width: 340,
           }}
           cover={
             <img
@@ -250,7 +259,7 @@ const Projects = () => {
               className=" text-blue-700/50 font-bold underline block"
               to="https://github.com/haqueashraful/real-estate-management"
             >
-              View code
+              Client code
             </Link>
           </div>
         </Card>
@@ -313,11 +322,11 @@ const Projects = () => {
 
         {/* art craft */}
         <Card
-          className=" overflow-hidden border-gre w-full"
+          className=" overflow-hidden !border-blue-700/80 w-full"
           hoverable
           onClick={() => setModalA(true)}
           style={{
-            width: 240,
+            width: 340,
           }}
           cover={
             <img
@@ -346,7 +355,14 @@ const Projects = () => {
               className=" text-blue-700/50 font-bold underline block"
               to="https://github.com/haqueashraful/art-craft-client"
             >
-              View code
+              Client code
+            </Link>
+            <Link
+              target="_blank"
+              className=" text-blue-700/50 font-bold underline block"
+              to="https://github.com/haqueashraful/art-craft-server"
+            >
+              Server code
             </Link>
           </div>
         </Card>
@@ -422,7 +438,7 @@ const Projects = () => {
 
         {/* Legal solutions */}
         {/* <Card
-          className=" overflow-hidden border-gre w-full"
+          className=" overflow-hidden !border-blue-700/80 w-full"
           hoverable
           style={{
             width: 240,
@@ -461,7 +477,7 @@ const Projects = () => {
 
         {/* Haque Travel */}
         {/* <Card
-          className=" overflow-hidden border-gre w-full"
+          className=" overflow-hidden !border-blue-700/80 w-full"
           hoverable
           style={{
             width: 240,
@@ -502,7 +518,7 @@ const Projects = () => {
         {/* Social Portal */}
 
         {/* <Card
-          className=" overflow-hidden border-gre w-full"
+          className=" overflow-hidden !border-blue-700/80 w-full"
           hoverable
           style={{
             width: 240,
