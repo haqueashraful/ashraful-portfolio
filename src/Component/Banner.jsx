@@ -3,7 +3,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
     return (
-          <div className="flex  lg:justify-between items-center lg:flex-row flex-col-reverse w-full h-full px-8 lg:px-24 gap-8 lg:gap-0 my-10">
+          <div id="home" className="flex  lg:justify-between items-center lg:flex-row flex-col-reverse w-full h-full px-8 lg:px-24 gap-8 lg:gap-0 my-10">
             <div className="w-full space-y-3 lg:space-y-5">
               <h1 className="lg:text-2xl text-lg font-bold text-black">Hi, I am Ashraful Haque <span className="text-[#6E06F2]">👋</span> </h1>
                 <h1 className="lg:text-7xl text-4xl font-black bg-gradient-to-tl from-[#f956b3] to-[#ec7a1d] text-transparent bg-clip-text "><span className="text-[#6E06F2]">Front-End</span> Web Developer</h1>
@@ -41,7 +41,7 @@ const Banner = () => {
                   {/* github */}
                   <li>
                     <a
-                      className="btn"
+                      className="social-btn"
                       href="https://github.com/haqueashraful"
                       target="_blank"
                       rel="noreferrer"
@@ -66,7 +66,7 @@ const Banner = () => {
                   {/* facebook */}
                   <li>
                     <a
-                      className="btn"
+                      className="social-btn"
                       href="https://www.facebook.com/profile.php?id=100051858772605"
                       target="_blank"
                       rel="noreferrer"
@@ -91,7 +91,7 @@ const Banner = () => {
                   {/* linkedin */}
                   <li>
                     <a
-                      className=" btn"
+                      className=" social-btn"
                       href="https://www.linkedin.com/in/a-h-rana"
                       target="_blank"
                       rel="noreferrer"

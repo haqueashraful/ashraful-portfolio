@@ -2,7 +2,7 @@ import Heading from "./Heading";
 
 const Skill = () => {
   return (
-    <div className="text-left px-8 lg:px-24 py-10 w-full">
+    <div id="skill" className="text-left px-8 lg:px-24 py-10 w-full">
       <Heading text="Skill" />
       <div>
         <div className="flex justify-between items-start flex-wrap  py-10">

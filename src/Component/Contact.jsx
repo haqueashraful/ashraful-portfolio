@@ -125,7 +125,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="text-center py-10 px-8 lg:px-24 w-full">
+    <div id="contact" className="text-center py-10 px-8 lg:px-24 w-full">
       <Heading text={"Contact"} />
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 my-10">

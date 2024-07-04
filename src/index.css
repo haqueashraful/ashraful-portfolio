@@ -72,7 +72,7 @@
 
 /* button */
 
-.btn {
+.social-btn {
   display: grid;
   place-items: center;
   background: #e3edf7;
@@ -85,7 +85,7 @@
   transition: transform 0.5s;
 }
 
-.btn:hover {
+.social-btn:hover {
   box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
 	      inset -4px -4px 6px -1px rgba(255,255,255,0.7),
 	      -0.5px -0.5px 0px rgba(255,255,255,1),
@@ -95,15 +95,16 @@
   transform: translateY(0.5em);
 }
 
-.btn svg {
+.social-btn svg {
   transition: transform 0.5s;
 }
 
-.btn:hover svg {
+.social-btn:hover svg {
   transform: scale(0.9);
-  fill: #6E06F2;
-  /* stroke: #f2695fa6; */
-  stroke: #ffffff;
+  /* fill: #6E06F2; */
+  /* fill: #F26964; */
+  stroke: #F26964;
+  /* stroke: #ffffff; */
 }
 
 

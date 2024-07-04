@@ -2,7 +2,7 @@ import Heading from "./Heading";
 
 const About = () => {
     return (
-        <div className="text-center py-10 px-8 lg:px-24 w-full">
+        <div id="about" className="text-center py-10 px-8 lg:px-24 w-full">
             <Heading text="About Me" />
                 <div>
                 <p className="text-xl text-left text-black py-10">

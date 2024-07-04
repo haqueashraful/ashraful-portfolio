@@ -1,17 +1,17 @@
 import { Button, Card, Modal } from "antd";
 import Meta from "antd/es/card/Meta";
-import project1 from "../assets/projects/screencapture-restaurant-managemnet-netlify-app-2024-06-05-11_03_12.png";
-import project2 from "../assets/projects/screencapture-smartticketreact-netlify-app-2024-06-05-11_02_08.png";
+// import project1 from "../assets/projects/screencapture-restaurant-managemnet-netlify-app-2024-06-05-11_03_12.png";
+// import project2 from "../assets/projects/screencapture-smartticketreact-netlify-app-2024-06-05-11_02_08.png";
 import project3 from "../assets/projects/screencapture-assignment-nine-ha-netlify-app-2024-06-05-11_31_23.png";
 import project4 from "../assets/projects/screencapture-artcraft-store-netlify-app-2024-06-05-11_34_01.png";
-import project5 from "../assets/projects/screencapture-haqueashraful-github-io-legal-solution-2024-06-05-11_13_09.png";
-import project6 from "../assets/projects/screencapture-haqueashraful-github-io-assignment-two-2024-06-05-11_45_20.png";
-import project7 from "../assets/projects/screencapture-social-portal-react-netlify-app-2024-06-05-11_09_53.png";
+// import project5 from "../assets/projects/screencapture-haqueashraful-github-io-legal-solution-2024-06-05-11_13_09.png";
+// import project6 from "../assets/projects/screencapture-haqueashraful-github-io-assignment-two-2024-06-05-11_45_20.png";
+// import project7 from "../assets/projects/screencapture-social-portal-react-netlify-app-2024-06-05-11_09_53.png";
 import project8 from "../assets/projects/screencapture-employeecare-ha-netlify-app-2024-07-04-09_08_30.png";
 import Heading from "./Heading";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import Title from "antd/es/skeleton/Title";
+// import Title from "antd/es/skeleton/Title";
 // import { Link } from "react-router-dom";
 
 const Projects = () => {
@@ -19,7 +19,7 @@ const Projects = () => {
   const [modalA, setModalA] = useState(false);
   const [modalE, setModalE] = useState(false);
   return (
-    <div className="text-left px-8 lg:px-24 py-10 w-full">
+    <div id="project" className="text-left px-8 lg:px-24 py-10 w-full">
       <Heading text="My Projects" />
       <div className="my-10 flex justify-center items-center flex-wrap gap-8 px-0 lg:px-10">
         {/* dine craft */}
