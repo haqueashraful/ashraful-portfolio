@@ -203,6 +203,17 @@ const Projects = () => {
             <li>Fired Employee Cannot Login with same email.</li>
             <li>Admin adjust salary for employee.</li>
           </ul>
+
+          <div>
+            <ul className=" flex-wrap list-inside flex justify-between items-center">
+              <h1 className="text-xl font-bold">Technologies: </h1>
+              <li> React</li>
+              <li> Tailwind</li>
+              <li> React-Router</li>
+              <li> Firebase</li>
+              <li> React-Query</li>
+            </ul>
+          </div>
         </Modal>
 
         {/* R-Estate */}
@@ -289,6 +300,17 @@ const Projects = () => {
               You can edit you Login info in update profile Name and Phot o_Url
             </li>
           </ul>
+
+          <div>
+            <ul className=" flex-wrap list-inside flex justify-between items-center">
+              <h1 className="text-xl font-bold">Technologies: </h1>
+              <li> React</li>
+              <li> Tailwind</li>
+              <li> React-Router</li>
+              <li> Firebase</li>
+              <li> React-Query</li>
+            </ul>
+          </div>
         </Modal>
 
         {/* art craft */}
@@ -388,6 +410,17 @@ const Projects = () => {
               doorstep.
             </li>
           </ul>
+
+          <div>
+            <ul className=" flex-wrap list-inside flex justify-between items-center">
+              <h1 className="text-xl font-bold">Technologies: </h1>
+              <li> React</li>
+              <li> Tailwind</li>
+              <li> React-Router</li>
+              <li> Firebase</li>
+              <li> React-Query</li>
+            </ul>
+          </div>
         </Modal>
 
         {/* Legal solutions */}
