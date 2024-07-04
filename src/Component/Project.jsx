@@ -21,7 +21,7 @@ const Projects = () => {
   return (
     <div id="project" className="text-left px-8 lg:px-24 py-10 w-full">
       <Heading text="My Projects" />
-      <div className="my-10 flex justify-center items-center flex-wrap gap-8 px-0 lg:px-10">
+      <div className="my-10 flex justify-center items-center flex-wrap gap-8">
         {/* dine craft */}
         {/* <Card
         onClick={() => setModal2Open(true)}
@@ -160,7 +160,6 @@ const Projects = () => {
         {/* modal R */}
         <Modal
           title="Dev Dare"
-          centered
           open={modalE}
           onCancel={() => setModalE(false)}
           footer={[
@@ -259,7 +258,6 @@ const Projects = () => {
         {/* modal R */}
         <Modal
           title="R-Estate"
-          centered
           open={modalR}
           onCancel={() => setModalR(false)}
           footer={[
@@ -356,7 +354,6 @@ const Projects = () => {
         {/* modal A */}
         <Modal
           title="ArtCraft Store"
-          centered
           open={modalA}
           onCancel={() => setModalA(false)}
           footer={[
