@@ -7,6 +7,7 @@ import project4 from "../assets/projects/screencapture-artcraft-store-netlify-ap
 import project5 from "../assets/projects/screencapture-haqueashraful-github-io-legal-solution-2024-06-05-11_13_09.png";
 import project6 from "../assets/projects/screencapture-haqueashraful-github-io-assignment-two-2024-06-05-11_45_20.png";
 import project7 from "../assets/projects/screencapture-social-portal-react-netlify-app-2024-06-05-11_09_53.png";
+import project8 from "../assets/projects/screencapture-employeecare-ha-netlify-app-2024-07-04-09_08_30.png";
 import Heading from "./Heading";
 import { Link } from "react-router-dom";
 import { useState } from "react";
@@ -16,6 +17,7 @@ import Title from "antd/es/skeleton/Title";
 const Projects = () => {
   const [modalR, setModalR] = useState(false);
   const [modalA, setModalA] = useState(false);
+  const [modalE, setModalE] = useState(false);
   return (
     <div className="text-left px-8 lg:px-24 py-10 w-full">
       <Heading text="My Projects" />
@@ -23,7 +25,7 @@ const Projects = () => {
         {/* dine craft */}
         {/* <Card
         onClick={() => setModal2Open(true)}
-          className=" overflow-hidden !border-blue-700/50 w-full"
+          className=" overflow-hidden border-gre w-full"
           hoverable
           style={{
             width: 240,
@@ -79,7 +81,7 @@ const Projects = () => {
 
         {/* smart ticket */}
         {/* <Card
-          className=" overflow-hidden !border-blue-700/50 w-full"
+          className=" overflow-hidden border-gre w-full"
           hoverable
           style={{
             width: 240,
@@ -116,10 +118,97 @@ const Projects = () => {
           </div>
         </Card> */}
 
+        {/* employee management */}
+        <Card
+          onClick={() => setModalE(true)}
+          className=" overflow-hidden border-gre w-full"
+          hoverable
+          style={{
+            width: 240,
+          }}
+          cover={
+            <img
+              src={project8}
+              alt="example"
+              style={{
+                height: "200px",
+                overflow: "hidden",
+                objectFit: "cover",
+                objectPosition: "top",
+              }}
+            />
+          }
+        >
+          <Meta title="Dev Care" description="Real State Business platform" />
+          <div className=" flex justify-between items-center  py-4">
+            <Link
+              target="_blank"
+              className=" text-blue-700/50 font-bold underline block"
+              to="https://employeecare-ha.netlify.app/"
+            >
+              Go live
+            </Link>
+            <Link
+              target="_blank"
+              className=" text-blue-700/50 font-bold underline block"
+              to="https://github.com/haqueashraful/employee-management-client"
+            >
+              View code
+            </Link>
+          </div>
+        </Card>
+        {/* modal R */}
+        <Modal
+          title="Dev Dare"
+          centered
+          open={modalE}
+          onCancel={() => setModalE(false)}
+          footer={[
+            <Button
+              key="link"
+              target="_blank"
+              href="https://employeecare-ha.netlify.app/"
+            >
+              Go live
+            </Button>,
+            <Button
+              key="link"
+              target="_blank"
+              href="https://github.com/haqueashraful/employee-management-client"
+              type="primary"
+            >
+              View code
+            </Button>,
+          ]}
+        >
+          <img
+            className="w-full h-[200px] object-cover object-top"
+            src={project8}
+            alt="R-estate"
+          />
+          <p className="text-lg py-3">
+            Employee Management System. With this system, you can manage your Employee work and salary. This has a Dashboard for Admin, Employee and HR. Hr can verify Employee and pay their salary. 
+          </p>
+
+          <ul className="list-disc list-inside">
+            <h1 className="text-xl font-bold">Features: </h1>
+            <li>Payment integrate For pay Employees salary</li>
+            <li>Authentication Implement with Firebase and BackEnd.</li>
+            <li>Dashboard system separate for Admin , User and Employee.</li>
+            <li>Verify Employee HR can verify the Employee.</li>
+            <li>Hr can Pay to Verified Employee</li>
+            <li>Hr Cannot pay to one Employee in Same Month twice.</li>
+            <li>Employee can submit their Daily Task or Work.</li>
+            <li>Admin Can Fire A employee.</li>
+            <li>Fired Employee Cannot Login with same email.</li>
+            <li>Admin adjust salary for employee.</li>
+          </ul>
+        </Modal>
+
         {/* R-Estate */}
         <Card
           onClick={() => setModalR(true)}
-          className=" overflow-hidden !border-blue-700/50 w-full"
+          className=" overflow-hidden border-gre w-full"
           hoverable
           style={{
             width: 240,
@@ -204,7 +293,7 @@ const Projects = () => {
 
         {/* art craft */}
         <Card
-          className=" overflow-hidden !border-blue-700/50 w-full"
+          className=" overflow-hidden border-gre w-full"
           hoverable
           onClick={() => setModalA(true)}
           style={{
@@ -272,7 +361,8 @@ const Projects = () => {
             alt="R-estate"
           />
           <p className="text-lg py-3">
-            Buy and sell your art. It Developed with react and firebase. It Developed for Buy and sell your art.
+            Buy and sell your art. It Developed with react and firebase. It
+            Developed for Buy and sell your art.
           </p>
 
           <ul className="list-disc list-inside">
@@ -302,7 +392,7 @@ const Projects = () => {
 
         {/* Legal solutions */}
         {/* <Card
-          className=" overflow-hidden !border-blue-700/50 w-full"
+          className=" overflow-hidden border-gre w-full"
           hoverable
           style={{
             width: 240,
@@ -341,7 +431,7 @@ const Projects = () => {
 
         {/* Haque Travel */}
         {/* <Card
-          className=" overflow-hidden !border-blue-700/50 w-full"
+          className=" overflow-hidden border-gre w-full"
           hoverable
           style={{
             width: 240,
@@ -382,7 +472,7 @@ const Projects = () => {
         {/* Social Portal */}
 
         {/* <Card
-          className=" overflow-hidden !border-blue-700/50 w-full"
+          className=" overflow-hidden border-gre w-full"
           hoverable
           style={{
             width: 240,
